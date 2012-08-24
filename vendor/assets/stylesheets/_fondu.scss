@@ -15,25 +15,9 @@ $font_path: "heroku" !default;
        font-url("#{$font_path}.svg#FontAwesomeRegular") unquote("format('svg')");
 }
 
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
-
-[data-icon]:before {
-  font-family: 'heroku';
-  content: attr(data-icon);
-  speak: none;
-  /* Enable Ligatures */
-  -webkit-font-feature-settings: "liga","dlig";
-  -moz-font-feature-settings: "liga=1, dlig=1";
-  -moz-font-feature-settings: "liga","dlig";
-  -ms-font-feature-settings: "liga","dlig";
-  -o-font-feature-settings: "liga","dlig";
-  font-feature-settings: "liga","dlig";
-  text-rendering: optimizeLegibility;
-}
-
 /* Use the following CSS code if you want to have a class per icon */
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="fondu_"]:before, [class*=" fondu_"]:before {
   font-family: 'heroku';
   font-style: normal;
   speak: none;
@@ -47,387 +31,387 @@ $font_path: "heroku" !default;
   text-rendering: optimizeLegibility;
 }
 
-.icon-heroku_000-heroku:before {
+.fondu_000-heroku:before {
   content: "\68\65\72\6f\6b\75";
 }
 
-.icon-heroku_001-heroku2:before {
+.fondu_001-heroku2:before {
   content: "\5b\68\5d";
 }
 
-.icon-heroku_002-platform:before {
+.fondu_002-platform:before {
   content: "\70\6c\61\74\66\6f\72\6d";
 }
 
-.icon-heroku_003-addons:before {
+.fondu_003-addons:before {
   content: "\61\64\64\6f\6e\73";
 }
 
-.icon-heroku_004-postgres:before {
+.fondu_004-postgres:before {
   content: "\70\6f\73\74\67\72\65\73";
 }
 
-.icon-heroku_005-partners:before {
+.fondu_005-partners:before {
   content: "\70\61\72\74\6e\65\72\73";
 }
 
-.icon-heroku_006-app:before {
+.fondu_006-app:before {
   content: "\61\70\70";
 }
 
-.icon-heroku_007-database:before {
+.fondu_007-database:before {
   content: "\64\61\74\61\62\61\73\65";
 }
 
-.icon-heroku_008:before {
+.fondu_008:before {
   content: "\e008";
 }
 
-.icon-heroku_009:before {
+.fondu_009:before {
   content: "\e009";
 }
 
-.icon-heroku_010-twitter:before {
+.fondu_010-twitter:before {
   content: "\74\77\69\74\74\65\72";
 }
 
-.icon-heroku_011-github:before {
+.fondu_011-github:before {
   content: "\67\69\74\68\75\62";
 }
 
-.icon-heroku_012-add:before {
+.fondu_012-add:before {
   content: "\61\64\64";
 }
 
-.icon-heroku_013-remove:before {
+.fondu_013-remove:before {
   content: "\72\65\6d\6f\76\65";
 }
 
-.icon-heroku_014-close:before {
+.fondu_014-close:before {
   content: "\63\6c\6f\73\65";
 }
 
-.icon-heroku_015-check:before {
+.fondu_015-check:before {
   content: "\63\68\65\63\6b";
 }
 
-.icon-heroku_016-config:before {
+.fondu_016-config:before {
   content: "\63\6f\6e\66\69\67";
 }
 
-.icon-heroku_017-search:before {
+.fondu_017-search:before {
   content: "\73\65\61\72\63\68";
 }
 
-.icon-heroku_018-star:before {
+.fondu_018-star:before {
   content: "\73\74\61\72";
 }
 
-.icon-heroku_019-alert:before {
+.fondu_019-alert:before {
   content: "\61\6c\65\72\74";
 }
 
-.icon-heroku_020-code:before {
+.fondu_020-code:before {
   content: "\63\6f\64\65";
 }
 
-.icon-heroku_021-share:before {
+.fondu_021-share:before {
   content: "\73\68\61\72\65";
 }
 
-.icon-heroku_022-power:before {
+.fondu_022-power:before {
   content: "\70\6f\77\65\72";
 }
 
-.icon-heroku_023:before {
+.fondu_023:before {
   content: "\e017";
 }
 
-.icon-heroku_024-permalink:before {
+.fondu_024-permalink:before {
   content: "\70\65\72\6d\61\6c\69\6e\6b";
 }
 
-.icon-heroku_025-download:before {
+.fondu_025-download:before {
   content: "\64\6f\77\6e\6c\6f\61\64";
 }
 
-.icon-heroku_026-upload:before {
+.fondu_026-upload:before {
   content: "\75\70\6c\6f\61\64";
 }
 
-.icon-heroku_027-cloud:before {
+.fondu_027-cloud:before {
   content: "\63\6c\6f\75\64";
 }
 
-.icon-heroku_028-speech:before {
+.fondu_028-speech:before {
   content: "\62\75\62\62\6c\65";
 }
 
-.icon-heroku_029-conversation:before {
+.fondu_029-conversation:before {
   content: "\63\6f\76\65\72\73\61\74\69\6f\6e";
 }
 
-.icon-heroku_030-email:before {
+.fondu_030-email:before {
   content: "\6d\65\73\73\61\67\65";
 }
 
-.icon-heroku_031-feed:before {
+.fondu_031-feed:before {
   content: "\66\65\65\64";
 }
 
-.icon-heroku_032-bullets:before {
+.fondu_032-bullets:before {
   content: "\62\75\6c\6c\65\74\73";
 }
 
-.icon-heroku_034-checklist:before {
+.fondu_034-checklist:before {
   content: "\63\6f\6d\70\6c\65\74\65";
 }
 
-.icon-heroku_035-scroll:before {
+.fondu_035-scroll:before {
   content: "\73\63\72\6f\6c\6c";
 }
 
-.icon-heroku_036-notepad:before {
+.fondu_036-notepad:before {
   content: "\6e\6f\74\65\70\61\64";
 }
 
-.icon-heroku_037-split:before {
+.fondu_037-split:before {
   content: "\73\70\6c\69\74";
 }
 
-.icon-heroku_038-join:before {
+.fondu_038-join:before {
   content: "\6a\6f\69\6e";
 }
 
-.icon-heroku_039-bidrectional:before {
+.fondu_039-bidrectional:before {
   content: "\62\69\64\69\72\65\63\74\69\6f\6e\61\6c";
 }
 
-.icon-heroku_049-fork:before {
+.fondu_049-fork:before {
   content: "\66\6f\72\6b";
 }
 
-.icon-heroku_050-tri-fork:before {
+.fondu_050-tri-fork:before {
   content: "\74\72\69\66\6f\72\6b";
 }
 
-.icon-heroku_051-commits:before {
+.fondu_051-commits:before {
   content: "\63\6f\6d\6d\69\74\73";
 }
 
-.icon-heroku_052-nodes:before {
+.fondu_052-nodes:before {
   content: "\6e\6f\64\65\73\31";
 }
 
-.icon-heroku_053-tree:before {
+.fondu_053-tree:before {
   content: "\74\72\65\65";
 }
 
-.icon-heroku_054-nodes2:before {
+.fondu_054-nodes2:before {
   content: "\6e\6f\64\65\73\32";
 }
 
-.icon-heroku_055-split2:before {
+.fondu_055-split2:before {
   content: "\33\77\61\79";
 }
 
-.icon-heroku_056:before {
+.fondu_056:before {
   content: "\e02e";
 }
 
-.icon-heroku_057:before {
+.fondu_057:before {
   content: "\e02f";
 }
 
-.icon-heroku_058-chart:before {
+.fondu_058-chart:before {
   content: "\62\61\72\67\72\61\70\68";
 }
 
-.icon-heroku_059-chartup:before {
+.fondu_059-chartup:before {
   content: "\75\70\67\72\61\70\68";
 }
 
-.icon-heroku_060-sparkline:before {
+.fondu_060-sparkline:before {
   content: "\73\70\61\72\6b\6c\69\6e\65";
 }
 
-.icon-heroku_061-linegraph:before {
+.fondu_061-linegraph:before {
   content: "\6c\69\6e\65\67\72\61\70\68";
 }
 
-.icon-heroku_062-piechart:before {
+.fondu_062-piechart:before {
   content: "\70\69\65\63\68\61\72\74";
 }
 
-.icon-heroku_063-clock:before {
+.fondu_063-clock:before {
   content: "\63\6c\6f\63\6b";
 }
 
-.icon-heroku_064-gauge:before {
+.fondu_064-gauge:before {
   content: "\67\61\75\67\65";
 }
 
-.icon-heroku_065:before {
+.fondu_065:before {
   content: "\e037";
 }
 
-.icon-heroku_066:before {
+.fondu_066:before {
   content: "\e038";
 }
 
-.icon-heroku_067:before {
+.fondu_067:before {
   content: "\e039";
 }
 
-.icon-heroku_068:before {
+.fondu_068:before {
   content: "\e03a";
 }
 
-.icon-heroku_069:before {
+.fondu_069:before {
   content: "\e03b";
 }
 
-.icon-heroku_070-lock:before {
+.fondu_070-lock:before {
   content: "\6c\6f\63\6b";
 }
 
-.icon-heroku_071-unlock:before {
+.fondu_071-unlock:before {
   content: "\75\6e\6c\6f\63\6b";
 }
 
-.icon-heroku_072-key:before {
+.fondu_072-key:before {
   content: "\6b\65\79";
 }
 
-.icon-heroku_073-shield:before {
+.fondu_073-shield:before {
   content: "\73\68\69\65\6c\64\6f\75\74\6c\69\6e\65";
 }
 
-.icon-heroku_074-shield2:before {
+.fondu_074-shield2:before {
   content: "\73\68\69\65\6c\64\66\69\6c\6c\65\64";
 }
 
-.icon-heroku_075-bank:before {
+.fondu_075-bank:before {
   content: "\62\61\6e\6b";
 }
 
-.icon-heroku_076-cart:before {
+.fondu_076-cart:before {
   content: "\63\61\72\74";
 }
 
-.icon-heroku_077-creditcard:before {
+.fondu_077-creditcard:before {
   content: "\63\72\65\64\69\74\63\61\72\64";
 }
 
-.icon-heroku_078-umbrella:before {
+.fondu_078-umbrella:before {
   content: "\75\6d\62\72\65\6c\6c\61";
 }
 
-.icon-heroku_079:before {
+.fondu_079:before {
   content: "\e045";
 }
 
-.icon-heroku_080:before {
+.fondu_080:before {
   content: "\e046";
 }
 
-.icon-heroku_081:before {
+.fondu_081:before {
   content: "\e047";
 }
 
-.icon-heroku_082-target:before {
+.fondu_082-target:before {
   content: "\74\61\72\67\65\74";
 }
 
-.icon-heroku_083-crosshair:before {
+.fondu_083-crosshair:before {
   content: "\63\72\6f\73\73\68\61\69\72";
 }
 
-.icon-heroku_084-compass:before {
+.fondu_084-compass:before {
   content: "\63\6f\6d\70\61\73\73";
 }
 
-.icon-heroku_085-marker:before {
+.fondu_085-marker:before {
   content: "\6d\61\72\6b\65\72";
 }
 
-.icon-heroku_086-globe:before {
+.fondu_086-globe:before {
   content: "\67\6c\6f\62\65";
 }
 
-.icon-heroku_087-layers:before {
+.fondu_087-layers:before {
   content: "\6c\61\79\65\72";
 }
 
-.icon-heroku_088-tag:before {
+.fondu_088-tag:before {
   content: "\74\61\67";
 }
 
-.icon-heroku_089-ellipsis:before {
+.fondu_089-ellipsis:before {
   content: "\65\6c\6c\69\70\73\69\73";
 }
 
-.icon-heroku_090-reload:before {
+.fondu_090-reload:before {
   content: "\72\65\6c\6f\61\64";
 }
 
-.icon-heroku_091-reload2:before {
+.fondu_091-reload2:before {
   content: "\73\70\69\6e\6e\65\72";
 }
 
-.icon-heroku_092-dial:before {
+.fondu_092-dial:before {
   content: "\64\69\61\6c";
 }
 
-.icon-heroku_093-calendar:before {
+.fondu_093-calendar:before {
   content: "\63\61\6c\65\6e\64\61\72";
 }
 
-.icon-heroku_094-eye:before {
+.fondu_094-eye:before {
   content: "\65\79\65";
 }
 
-.icon-heroku_095-camera:before {
+.fondu_095-camera:before {
   content: "\63\61\6d\65\72\61";
 }
 
-.icon-heroku_096-picture:before {
+.fondu_096-picture:before {
   content: "\69\6d\61\67\65";
 }
 
-.icon-heroku_097-bug:before {
+.fondu_097-bug:before {
   content: "\62\75\67";
 }
 
-.icon-heroku_098-flag:before {
+.fondu_098-flag:before {
   content: "\66\6c\61\67";
 }
 
-.icon-heroku_099-puzzle:before {
+.fondu_099-puzzle:before {
   content: "\70\75\7a\7a\6c\65";
 }
 
-.icon-heroku_100-briefcase:before {
+.fondu_100-briefcase:before {
   content: "\62\72\69\65\66\63\61\73\65";
 }
 
-.icon-heroku_101-lightning:before {
+.fondu_101-lightning:before {
   content: "\6c\69\67\68\74\69\6e\67";
 }
 
-.icon-heroku_102-person:before {
+.fondu_102-person:before {
   content: "\70\65\72\73\6f\6e";
 }
 
-.icon-heroku_103-people:before {
+.fondu_103-people:before {
   content: "\70\65\6f\70\6c\65";
 }
 
-.icon-heroku_104-play:before {
+.fondu_104-play:before {
   content: "\70\6c\61\79";
 }
 
-.icon-heroku_105:before {
+.fondu_105:before {
   content: "\e05f";
 }
 
