@@ -16,7 +16,7 @@ task :revendor do
     end
 
     sh %{ bundle exec sass-convert --to scss #{dir}/font/release/style.css #{root}/vendor/assets/stylesheets/_fondu.scss }
-    sh %{ sed -e 's/fonts\\///g' -if #{root}/vendor/assets/stylesheets/_fondu.scss }
+    sh %{ sed -e 's/fonts\\///g' -i "" #{root}/vendor/assets/stylesheets/_fondu.scss }
   end
 
 end
